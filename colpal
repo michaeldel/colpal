@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+import fileinput
+
+for line in fileinput.input():
+    if line in ('', '\n'):
+        continue
+    if line.startswith('/'):
+        continue
+
+    name, code = line.rstrip('\n').split('\t')
+
+    r, g, b = tuple(int(code.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
+    print(name, f"\033[38;2;{r};{g};{b}m{code}\033[0m", sep='\t')
