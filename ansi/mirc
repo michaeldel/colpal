@@ -1,0 +1,19 @@
+black	#000000
+red	#7f0000
+green	#009300
+yellow	#fc7f00
+blue	#00007f
+magenta	#9c009c
+cyan	#009393
+white	#d2d2d2
+bright black	#7f7f7f
+bright red	#ff0000
+bright green	#00fc00
+bright yellow	#ffff00
+bright blue	#0000fc
+bright magenta	#ff00ff
+bright cyan	#00ffff
+bright white	#ffffff
+
+/alias grey=bright black
+/alias gray=bright black
