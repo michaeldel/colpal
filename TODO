@@ -1,0 +1,23 @@
+show aliases
+dont show aliases
+input xresources
+export to formats...
+    - xresources
+    - vim syntax
+use aliases for exports (e.g. /alias color1=black)
+special commands:
+    - alias
+    - include
+support more formats:
+    - hex
+    - rgb
+    - rgba
+    - hsv
+    - tsv
+    - etc.
+vim syntax hl
+warning/err on duplicate names ?
+list palettes
+ansi 256 colors
+    - 6 6 6 cube
+    - 24 grayscale
